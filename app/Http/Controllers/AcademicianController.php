@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class AcademicianController extends Controller
 {
+    #f
     public function index() {
         $academicians = Academician::all();
         return view('academicians.index', compact('academicians'));
